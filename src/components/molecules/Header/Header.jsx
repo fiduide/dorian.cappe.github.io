@@ -16,9 +16,10 @@ const Header = () => {
 
   function handleClickHeader(setting) {
     if (setting == null) {
-      setting = !isOpen;
+      setOpen(!isOpen);
+    } else {
+      setOpen(setting);
     }
-    setOpen(setting);
   }
 
   return (

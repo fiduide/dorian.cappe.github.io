@@ -1,6 +1,8 @@
 import { Header } from "components/molecules";
 import AppStyled from "./App.styled";
 import Home from "containers/Home/Home";
+import Jobs from "containers/Jobs/Jobs";
+import Mailer from "containers/Mailer/Mailer";
 import Skills from "containers/Skills/Skills";
 import "assets/css/app.css";
 import { Route } from "react-router-dom";
@@ -19,8 +21,8 @@ const App = () => {
         <Route path="/" exact component={Home} />
         <Route path="/about" exact component={Home} />
         <Route path="/skills" exact component={Skills} />
-        <Route path="/recent-work" exact component={Home} />
-        <Route path="/contact" exact component={Home} />
+        <Route path="/recent-work" exact component={Jobs} />
+        <Route path="/contact" exact component={Mailer} />
       </Switch>
     </AppStyled>
   );

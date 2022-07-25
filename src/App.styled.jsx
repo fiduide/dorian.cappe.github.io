@@ -1,7 +1,9 @@
 import styled from "styled-components";
 
 const AppStyled = styled.div`
+  font-family: "Monda", Courier, monospace;
   margin-left: 100px;
+  overflow: hidden;
   background-color: ${(props) => (props.light ? "#f2f2f2" : "#1c1c1e")};
   color: ${(props) => (props.light ? "#1c1c1e" : "#fefefe")};
 

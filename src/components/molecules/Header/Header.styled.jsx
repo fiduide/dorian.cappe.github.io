@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 const HeaderStyled = styled.header`
+  font-family: "Monda", Courier, monospace;
   position: fixed;
   top: 0;
   left: 0;
@@ -43,6 +44,10 @@ const HeaderStyled = styled.header`
       justify-content: space-between;
     }
 
+    img {
+      transition: ease-in-out all 0.25s;
+    }
+
     button {
       display: flex;
       align-items: center;
@@ -52,22 +57,26 @@ const HeaderStyled = styled.header`
       border: none;
       padding: 15px;
       border-radius: 8px;
-      color: ${(props) => (!props.light ? "#eee" : "#333")};
+      color: ${(props) => (!props.light ? "#fefefe" : "#1c1c1e")};
       transition: ease-in-out all 0.25s;
 
       :first-child {
         justify-content: center;
       }
       :not(:first-child) {
-        background-color: ${(props) => (props.light ? "#fafafa" : "gray")};
-        color: ${(props) => (!props.light ? "#eee" : "gray")};
+        background-color: ${(props) => (props.light ? "#fafafa" : "#ECEFF1")};
+        color: ${(props) => (props.light ? "#1c1c1e" : "#1c1c1e")};
         min-width: ${(props) => (!props.isOpen ? "300px" : "auto")};
         padding-left: ${(props) => (!props.isOpen ? "30px" : "15px")};
         margin: 20px;
 
         :hover {
-          background-color: ${(props) => (props.light ? "#0d6efd" : "#b9b9b9")};
+          background-color: ${(props) => (props.light ? "#B23CFD" : "#B9B9B9")};
           color: white;
+
+          img {
+            filter: invert(1);
+          }
         }
       }
     }
@@ -86,7 +95,7 @@ const HeaderStyled = styled.header`
 
       p {
         display: ${(props) => (!props.isOpen ? "inline" : "none")};
-        color: ${(props) => (!props.light ? "#eee" : "#333")};
+        color: ${(props) => (!props.light ? "#fefefe" : "#1c1c1e")};
       }
     }
   }
@@ -104,7 +113,7 @@ const HeaderStyled = styled.header`
       width: 0;
       height: 0;
       :checked + .slider {
-        background-color: ${(props) => (props.light ? "#2196f3" : "gray")};
+        background-color: ${(props) => (props.light ? "#B23CFD" : "gray")};
       }
       :focus + .slider {
         box-shadow: 0 0 1px #2196f3;
@@ -125,7 +134,7 @@ const HeaderStyled = styled.header`
     left: 0;
     right: 0;
     bottom: ${(props) => (!props.isOpen ? "0" : "15px")};
-    background-color: #ccc;
+    background-color: #b23cfd;
     -webkit-transition: 0.4s;
     transition: 0.4s;
     :before {
@@ -161,7 +170,7 @@ const HeaderStyled = styled.header`
     }
 
     .top {
-      max-width: 94%;
+      /* max-width: 94%; */
       button {
         min-width: 250px !important;
         font-size: 18px;
@@ -177,7 +186,7 @@ const HeaderStyled = styled.header`
     }
 
     .bottom {
-      max-width: 94%;
+      /* max-width: 94%; */
       text-align: center;
       h3 {
         font-size: 18px;
