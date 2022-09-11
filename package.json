@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "d3-ease": "^3.0.1",
     "emailjs-com": "^3.2.0",
+    "gh-pages": "^4.0.0",
     "node-sass": "^7.0.1",
     "react": "^17.0.2",
     "react-circular-progressbar": "^2.0.4",
@@ -21,10 +22,11 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://fiduide.github.io/",
+  "homepage": "https://fiduide.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
