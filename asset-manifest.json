@@ -1,0 +1,37 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.a3821e99.css",
+    "main.js": "/portfolio/static/js/main.5e1f6276.js",
+    "static/media/java.png": "/portfolio/static/media/java.2ae287a12fa76546f792.png",
+    "static/media/wordpress.png": "/portfolio/static/media/wordpress.58c0a8fe5e3309f46464.png",
+    "static/media/react.png": "/portfolio/static/media/react.e3c7706e2cef2a3b820e.png",
+    "static/media/js.png": "/portfolio/static/media/js.c06959f1a5177ffaea13.png",
+    "static/media/php.png": "/portfolio/static/media/php.137e42254d07a193b600.png",
+    "static/media/pc_clubtravaux.png": "/portfolio/static/media/pc_clubtravaux.3100bd6c85673b0131eb.png",
+    "static/media/sass.png": "/portfolio/static/media/sass.b63f8ca6eee8ac3b0a17.png",
+    "static/media/pc_integration.png": "/portfolio/static/media/pc_integration.fcb41a84136c550b9799.png",
+    "static/media/c.png": "/portfolio/static/media/c.31e1d66321bd40844c41.png",
+    "static/media/node-js.png": "/portfolio/static/media/node-js.6d3b38a7b31b44464b57.png",
+    "static/media/pc_portfolio.png": "/portfolio/static/media/pc_portfolio.7a2a5e5191dfeb0caab7.png",
+    "static/media/mongodb.png": "/portfolio/static/media/mongodb.ab495b9e1acbd438e51a.png",
+    "static/media/sqlite.png": "/portfolio/static/media/sqlite.0be0d0f8fa38a0a3a21d.png",
+    "static/media/jquery.png": "/portfolio/static/media/jquery.bc955658f6b8106c4fa9.png",
+    "static/media/git.png": "/portfolio/static/media/git.3980149bc70980ec99ab.png",
+    "static/media/mysql.png": "/portfolio/static/media/mysql.b1b58c9a404fba416493.png",
+    "static/media/symfony.png": "/portfolio/static/media/symfony.ede32832e3cbb61a7245.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.a576b31a47fddeda8321.png",
+    "static/media/postman.png": "/portfolio/static/media/postman.a6ec61f008e4f0d3967b.png",
+    "static/media/dart.png": "/portfolio/static/media/dart.0512298de6a8194a30e6.png",
+    "static/media/html.png": "/portfolio/static/media/html.23024d6c480fb244a811.png",
+    "static/media/css.png": "/portfolio/static/media/css.0963ca00f577bbd70fe0.png",
+    "static/media/pwa.png": "/portfolio/static/media/pwa.def69a543100f464c273.png",
+    "static/media/hero.svg": "/portfolio/static/media/hero.a3cfd98754260b0cb3fe4e368592799b.svg",
+    "index.html": "/portfolio/index.html",
+    "main.a3821e99.css.map": "/portfolio/static/css/main.a3821e99.css.map",
+    "main.5e1f6276.js.map": "/portfolio/static/js/main.5e1f6276.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3821e99.css",
+    "static/js/main.5e1f6276.js"
+  ]
+}
