@@ -1,7 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.a3821e99.css",
-    "main.js": "/portfolio/static/js/main.f2a21c22.js",
+    "main.js": "/portfolio/static/js/main.0d65534b.js",
+    "static/media/pc_foodchief.png": "/portfolio/static/media/pc_foodchief.e2fc92b71ccef0cb4886.png",
     "static/media/java.png": "/portfolio/static/media/java.2ae287a12fa76546f792.png",
     "static/media/wordpress.png": "/portfolio/static/media/wordpress.58c0a8fe5e3309f46464.png",
     "static/media/react.png": "/portfolio/static/media/react.e3c7706e2cef2a3b820e.png",
@@ -25,13 +26,13 @@
     "static/media/html.png": "/portfolio/static/media/html.23024d6c480fb244a811.png",
     "static/media/css.png": "/portfolio/static/media/css.0963ca00f577bbd70fe0.png",
     "static/media/pwa.png": "/portfolio/static/media/pwa.def69a543100f464c273.png",
-    "static/media/hero.svg": "/portfolio/static/media/hero.a3cfd98754260b0cb3fe4e368592799b.svg",
+    "static/media/hero.svg": "/portfolio/static/media/hero.5c8568c2804287a7649865cf23368e5f.svg",
     "index.html": "/portfolio/index.html",
     "main.a3821e99.css.map": "/portfolio/static/css/main.a3821e99.css.map",
-    "main.f2a21c22.js.map": "/portfolio/static/js/main.f2a21c22.js.map"
+    "main.0d65534b.js.map": "/portfolio/static/js/main.0d65534b.js.map"
   },
   "entrypoints": [
     "static/css/main.a3821e99.css",
-    "static/js/main.f2a21c22.js"
+    "static/js/main.0d65534b.js"
   ]
 }
