@@ -31,7 +31,10 @@ const Header = () => {
       >
         <div className="top">
           <div className="firstButton d-flex align-items-center space-between">
-            <WavyLink to="/" waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}>
+            <WavyLink
+              to="/portfolio/"
+              waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}
+            >
               <div className="d-flex align-items-center">
                 <img src={imageHomeSrc} alt="home" />
                 Accueil
@@ -46,7 +49,10 @@ const Header = () => {
             />
           </div>
 
-          <WavyLink to="/about" waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}>
+          <WavyLink
+            to="/portfolio/about"
+            waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}
+          >
             <div
               className="d-flex align-items-center"
               onClick={() => handleClickHeader(false)}
@@ -55,7 +61,10 @@ const Header = () => {
             </div>
           </WavyLink>
 
-          <WavyLink to="/skills" waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}>
+          <WavyLink
+            to="/portfolio/skills"
+            waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}
+          >
             <div
               className="d-flex align-items-center"
               onClick={() => handleClickHeader(false)}
@@ -64,7 +73,7 @@ const Header = () => {
             </div>
           </WavyLink>
           <WavyLink
-            to="/recent-work"
+            to="/portfolio/recent-work"
             waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}
           >
             <div
@@ -74,7 +83,10 @@ const Header = () => {
               <img src={work} alt="" /> Travaux récents
             </div>
           </WavyLink>
-          <WavyLink to="/contact" waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}>
+          <WavyLink
+            to="/portfolio/contact"
+            waveColor={isDarkMode ? "b9b9b9" : "#e8e8ed"}
+          >
             <div
               className="d-flex align-items-center"
               onClick={() => handleClickHeader(false)}
