@@ -21,10 +21,11 @@
     "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "https://fiduide.github.io/",
+  "homepage": "https://fiduide.github.io/portfolio",
   "scripts": {
     "start": "react-scripts start",
     "deploy": "gh-pages -d build",
+    "predeploy": "npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
