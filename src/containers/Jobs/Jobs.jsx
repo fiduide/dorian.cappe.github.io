@@ -3,6 +3,8 @@ import { DarkModContext } from "context/DarkModContext";
 import { useContext } from "react";
 import { Work } from "components/molecules";
 import clubtravaux from "../../assets/images/pc_clubtravaux.png";
+import foodchief from "../../assets/images/pc_foodchief.png";
+
 import inte from "../../assets/images/pc_integration.png";
 import portfolio from "../../assets/images/pc_portfolio.png";
 
@@ -11,6 +13,14 @@ const Jobs = () => {
 
   return (
     <JobsStyled light={!isDarkMode ? true : false}>
+      <Work
+        order="second"
+        title="FoodChief"
+        text="Search your favorite Recipe"
+        languages="ReactJS"
+        img={foodchief}
+        link="https://fiduide.github.io/foodchief/"
+      ></Work>
       <Work
         order="first"
         title="ClubTravaux"
