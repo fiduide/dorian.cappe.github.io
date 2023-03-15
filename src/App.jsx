@@ -18,11 +18,11 @@ const App = () => {
       <Header />
       <WavyContainer />
       <Switch>
-        <Route path="/portfolio" exact component={Home} />
-        <Route path="/about" exact component={Home} />
-        <Route path="/skills" exact component={Skills} />
-        <Route path="/recent-work" exact component={Jobs} />
-        <Route path="/contact" exact component={Mailer} />
+        <Route path="/portfolio/" exact component={Home} />
+        <Route path="/portfolio/about" exact component={Home} />
+        <Route path="/portfolio/skills" exact component={Skills} />
+        <Route path="/portfolio/recent-work" exact component={Jobs} />
+        <Route path="/portfolio/contact" exact component={Mailer} />
       </Switch>
     </AppStyled>
   );

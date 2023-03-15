@@ -36,7 +36,7 @@ const Home = () => {
             <br />
             Après deux ans d'alternance en tant que développeur fullstack, je me
             lance aujourd'hui dans une nouvelle aventure (le travail). Je suis
-            quelqu'un de motivé avec une soif d'apprentissage hors du commun !
+            quelqu'un de motiver avec une soif d'apprentissage hors du commun !
             <br />
             <br />
             Alors n'hésite pas à me contacter pour en savoir plus !
