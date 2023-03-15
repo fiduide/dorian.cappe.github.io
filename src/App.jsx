@@ -18,7 +18,7 @@ const App = () => {
       <Header />
       <WavyContainer />
       <Switch>
-        <Route path="/" exact component={Home} />
+        <Route path="/portfolio" exact component={Home} />
         <Route path="/about" exact component={Home} />
         <Route path="/skills" exact component={Skills} />
         <Route path="/recent-work" exact component={Jobs} />
