@@ -4,6 +4,7 @@ import { useContext } from "react";
 import { Work } from "components/molecules";
 import clubtravaux from "../../assets/images/pc_clubtravaux.png";
 import foodchief from "../../assets/images/pc_foodchief.png";
+import equinaya from "../../assets/images/pc_equinaya.png";
 
 import inte from "../../assets/images/pc_integration.png";
 import portfolio from "../../assets/images/pc_portfolio.png";
@@ -13,6 +14,14 @@ const Jobs = () => {
 
   return (
     <JobsStyled light={!isDarkMode ? true : false}>
+      <Work
+        order="first"
+        title="Equinaya"
+        text="Artisanat/Massage Équin et Canin"
+        languages="HTML, CSS, JS, PHP"
+        img={equinaya}
+        link="https://equinaya.fr"
+      ></Work>
       <Work
         order="second"
         title="FoodChief"
