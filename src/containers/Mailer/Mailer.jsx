@@ -4,6 +4,8 @@ import { useContext, useState } from "react";
 import { send } from "emailjs-com";
 import { toast } from "react-toastify";
 
+import link from "../../assets/images/link.png";
+
 const Mailer = () => {
   const { isDarkMode } = useContext(DarkModContext);
   const [toSend, setToSend] = useState({
@@ -72,81 +74,9 @@ const Mailer = () => {
       light={!isDarkMode ? true : false}
     >
       <h1>Vous souhaitez me contacter ?</h1>
-      <div className="mailer-container">
-        <div className="form-control">
-          <label>Nom</label>
-          <input
-            type="text"
-            name="nom"
-            id="nom"
-            placeholder="Votre nom"
-            value={toSend.nom}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-control">
-          <label>Email</label>
-          <input
-            type="text"
-            name="email"
-            id="email"
-            placeholder="Votre email"
-            value={toSend.email}
-            onChange={handleChange}
-            required
-          />
-        </div>
-        <div className="form-control">
-          <label>Numéro de téléphone</label>
-          <input
-            type="tel"
-            name="tel"
-            id="tel"
-            placeholder="Votre numéro de téléphone"
-            value={toSend.tel}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <div className="form-control">
-          <label>Sujet</label>
-          <select name="sujet" id="sujet" onChange={handleChange}>
-            <option className="opt-class" value="" disabled selected>
-              Sélectionnez votre option
-            </option>
-            <option className="optionHover" value="Discussion">
-              Discussion
-            </option>
-            <option className="optionHover" value="Information">
-              Information
-            </option>
-            <option className="optionHover" value="Proposition">
-              Proposition
-            </option>
-            <hr />
-            <option value="Autre">Autre</option>
-          </select>
-        </div>
-
-        <div className="form-control">
-          <label>Message</label>
-          <textarea
-            type="text"
-            name="message"
-            id="message"
-            placeholder="Votre message"
-            value={toSend.message}
-            onChange={handleChange}
-            required
-          />
-        </div>
-
-        <button type="submit" onClick={(e) => onSubmitMail(e)}>
-          Envoyer
-        </button>
-      </div>
+      <a href="https://www.linkedin.com/in/dorian-cappe/">
+        <img src={link} alt="linkedin" target="_blank" />
+      </a>
     </MailerStyled>
   );
 };
